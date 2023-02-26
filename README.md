@@ -1,7 +1,22 @@
 # gpt-bot-server
 
 A chatbot microservice that use OPENAI GPT 3.0 API for conversation.
-See the react playground ...
+
+JSON call:
+
+```json
+{
+    "question":"a question for GPT...",
+    "option":[ "" | "thera_prompt", | "thera_prompt_with_context" ],
+    "max_token":300,
+    "temperature":0.6,
+    "CHAT_TOKEN":""
+}
+```
+The option is the prompt model to use 
+ - no prompt
+ - thera_prompt is the promt_response.txt (or _fr if config.ini language is fr)
+ - thera_prompt_with_context is the promt_response_note.txt (or _fr if config.ini language is fr). This prompt add the last messages to the prompt as context.
 
 
 Start with Python:
