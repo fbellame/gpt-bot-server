@@ -1,0 +1,8 @@
+Répond à la question qui va suivre en te basant sur le contexte ci-dessous. Répond comme si tu étais mon thérapeute.
+
+
+Q:
+<<UTILISATEUR>>
+
+
+A:
